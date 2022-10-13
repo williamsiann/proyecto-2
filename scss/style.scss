@@ -1,0 +1,272 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+.main-proyecto{
+    background: url(/img/background-7.jpg.jpg);
+    background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 100vh;
+	padding: 150px 0;
+    
+    .texto-mountains{
+        font-size: 5rem;
+        margin-left: 5rem;
+        webkit-background-clip: text;
+        background: linear-gradient(#13242a,#53686f);
+        -webkit-background-clip: text;
+        color: transparent; 
+    }
+    
+    .subtitulo-principal{
+        text-align: center;
+        font-size: 1.1rem;
+        webkit-background-clip: text;
+        background: linear-gradient(#13242a,#53686f);
+        -webkit-background-clip: text;
+        color: transparent; 
+    }
+}
+
+.section-1{
+    background-color:#e5eaeb ;
+    height: 500px;
+    display: flex;
+    
+
+    .about-text{
+        border-bottom-color: #3b4d54;
+        border-bottom-style: solid;
+        border-bottom-width: 0px;
+
+        border-left-color: #3b4d54;
+        border-left-style: solid;
+        border-left-width: 20px;
+
+        border-right-color: #3b4d54;
+        border-right-style: solid;
+        border-right-width: 0px;
+
+        border-top-color: #3b4d54;
+        border-top-style: solid;
+        border-top-width: 0px;
+        box-sizing: border-box;
+
+        font-size: 17px;
+        font-style: normal;
+        line-height: normal;
+        position: relative;
+        text-align: left;
+        text-size-adjust: 100%;
+        padding-left: 3rem;
+        stroke: none;
+        overflow-wrap: break-word;
+        display: block;
+        margin-block-start: 3em;
+        margin-block-end: 7em;
+        margin-inline-start: 35px;
+        margin-inline-end: 35px;
+        margin-top: 4rem;
+        margin-left: 8rem;
+        line-height: 1.8;
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    .about-title{
+        font-size: 150px;
+        margin-bottom: 4rem;
+        margin-left: 8rem;
+        color: #3b4d54;
+        font-family: 'Montserrat', sans-serif;
+    }
+}
+
+.section-2{
+    background-color:#313130 ;
+    display: block;
+    height: 200vh;
+    
+    .countainer-text-section-2{
+        height:18%;
+        padding: 2rem;
+
+        .travel{
+            font-size: 96px;
+            margin-left: 6rem;
+            color: #e5eaeb;
+            font-family: 'Montserrat', sans-serif;
+            padding-bottom: 2rem;
+        }
+        
+        .text-section-2{
+            margin-left: 6rem;
+            font-size: 20px;
+            color: #e5eaeb;
+            line-height: 1.7;
+            font-weight: 400;
+        }
+    }
+
+    .gallery-coutainer{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-auto-rows: 350px;
+        padding: 20px;
+        grid-gap: 10px;
+        justify-content: center;
+
+        .gallery__img{
+            width: 100%;
+            object-fit: cover;
+            height: 100%;
+        }
+        
+        .gallery__item:nth-child(4) {
+            grid-column-start: span 2;
+        }
+
+        .gallery__item:nth-child(5) {
+            grid-row-start: span 2;
+        }
+
+        .gallery__item:nth-child(8) {
+            height: 400px;
+        }
+
+        .gallery__item:nth-child(9) {
+            grid-column-start: span 2;
+            height: 400px;
+        }
+    }
+}
+
+.section-3{
+    height: 917px;
+    width: auto;
+    padding-left: 15rem;
+    background-color: rgb(245, 245, 240);
+    padding-top: 4rem;
+
+    .img-big{
+        background:url(../img/background-9.jpg.png) ;
+        width: 1150px;
+        height: 578px;
+        object-fit: contain;
+        opacity: 0.8;
+    }
+    
+    .go-where-proyecto-2{
+        height: 200px;
+        display: flex;
+
+            .text-go-where{
+            font-size: 7rem;
+            color:#4d7168;
+            font-family: 'Montserrat', sans-serif;
+            padding-top: 2rem;
+            width: 672px;
+            height: 180px;
+            }
+
+        .mountains{
+            width: 438px;
+            height: 244px;
+            float: right;
+            text-align: left;
+            padding-top: 4rem ;
+            font-size: 1.125rem;
+            line-height: 1.8;
+            position: relative;
+            box-sizing: border-box;
+            color: #2F3E46;
+            font-family: 'Montserrat', sans-serif;
+        }
+    }
+}
+.section-4{
+    background-color: #f7f7f7;
+
+    .text-section-4{
+        align-items: center;
+        text-align: center;
+        padding-top: 4rem;
+        padding-bottom: 8rem;
+        
+        .amazing-places{
+            font-size: 8rem;
+            color: #3b4d54;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .lorem-text{
+            font-size: 1.4rem;
+            font-family: 'Montserrat', sans-serif;
+            color: #4d7168;
+        }
+    }
+    
+    .border-bottom-amazing{    
+        margin: 70px 792px 0px 0px;
+        display: block;
+        border-bottom-style: solid;
+        color: #354F52;
+        width: 148px;
+        height: 20px;
+        margin-inline-start: 35px;
+        margin-inline-end: 35px;
+        margin-top: 4rem;
+        margin-left: 8rem;
+    }
+
+    .img-4{
+        padding-bottom: 2rem;
+        width: auto;
+        height: 450px;
+        margin: 30px 30px 10px 30px;
+
+        .img-4-countain{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+}
+
+article{
+    
+    .new-road{
+        text-align: center;
+        padding-bottom: 4rem;
+        background-color: #e1e5e7;
+
+        .new-road-title{
+            font-size: 8rem;
+            color: #3b4d54;
+            font-family: 'Montserrat', sans-serif;
+        }
+        .new-road-text{
+            font-size: 1.4rem;
+            font-family: 'Montserrat', sans-serif;
+            color: #2f3e46;
+        }
+    }
+}
+
+.footer-proyecto-2{
+    height: 100px;
+    background-color: #e1e5e7;
+    
+#footer-general{
+    background-color: #2F3E46;
+    position:relative;
+    a {
+        text-decoration: none; 
+        color:#e1e5e7;
+    }
+}
+}
